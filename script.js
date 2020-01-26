@@ -1,6 +1,6 @@
 console.log("all ok")
 punkt2_1()
-punkt2_2_1()
+punkt2_2_2()
 
 function punkt2_1() {
   let d = {key: "value"};
@@ -29,4 +29,17 @@ function punkt2_2_1() {
 	console.log(s.toLowerCase())
 	console.log(s.toUpperCase())
 	console.log(s.trim())
+}
+function punkt2_2_2() {
+	console.log(Math.pow(2, 4))
+	console.log(Math.pow(2, -3))
+	console.log(Math.sqrt(9))
+	console.log(Math.ceil(1.25))
+	console.log(Math.floor(1.25))
+	console.log(Math.round(1.5))
+	console.log(Math.max(1,2,3234,23,6))
+	console.log(Math.min(1,2,3234,23,6))
+	console.log(Math.sign(-3))
+	console.log(Math.sign(0))
+	console.log(Math.sign(34))
 }
