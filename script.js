@@ -1,6 +1,6 @@
 console.log("all ok")
 punkt2_1()
-punkt2_2_3()
+punkt2_2_4()
 
 function punkt2_1() {
   let d = {key: "value"};
@@ -62,4 +62,23 @@ function punkt2_2_3() {
 	});
 	console.log(c)
 
+}
+
+function punkt2_2_4() {
+	let a = [1,4,34,6,75,74236,123,3,5]
+	let b = a.sort()
+	console.log(b)
+	let c = a.sort(key)
+	console.log(c)
+}
+
+function key(fst, snd) {
+	if (fst < snd){
+		return -1;
+	}else{
+		if (fst === snd)
+			return 0
+		else
+			return 1
+	}
 }
